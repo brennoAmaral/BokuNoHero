@@ -1,7 +1,7 @@
-import axios from "contentful-management/node_modules/axios";
 import React, { useState } from "react";
 import styled from "styled-components";
 import theme from "../../theme";
+import getImagePerson from "../../services/firstGet.js";
 
 
 const AvatarStyle = styled.div`
@@ -14,15 +14,23 @@ const DivImgStyle = styled.div`
   background-color: ${theme.secondary};
   width:  100px;
   height: 100px;
-  border-radius: 50px;
+  img{
+    border-radius: 50px;
+  }
 `
 
-export default function Avatar(){
 
+
+export default function Avatar(){
+  const [ characterImage, setCharacter] = useState();
+
+  getImagePerson.then( response => {
+    setCharacter(response);
+  })
   return(
     <AvatarStyle>
       <DivImgStyle>
-      
+        <img src={characterImage}/>
       </DivImgStyle>
     </AvatarStyle>
   );  
