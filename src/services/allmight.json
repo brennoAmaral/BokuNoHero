@@ -1,0 +1,28 @@
+{
+  "id": "Toshinori_Yagi",
+  "name": "Toshinori Yagi",
+  "alias": "All Might",
+  "affiliation": "U.A. High School",
+  "birthday": "June 10",
+  "bloodtype": "A",
+  "description": "Toshinori Yagi (八 (や) 木 (ぎ) 俊 (とし) 典 (のり) , Yagi Toshinori?), more commonly known by his hero name, All Might (オールマイト, Ōru Maito?), is the tritagonist of My Hero Academia. All Might is the former No. 1 Pro Hero who bore the title of the world's Symbol of Peace (平和の象徴, Heiwa no Shōchō?). He teaches Foundational Hero Studies at U.A. High School.\nAll Might was the eighth holder of the One For All Quirk after receiving it from Nana Shimura. He has since passed the torch to Izuku Midoriya, whom he is training to be his successor. After using up all the embers of One For All to defeat All For One, All Might retired and ended his era as the world's greatest hero.\n",
+  "fightstyle": null,
+  "gender": "Male",
+  "Eye": "Light Blue",
+  "hair": "Blond",
+  "height": "220 cm (7'2\") (Muscle Form)",
+  "kanji": "八 (や) 木 (ぎ) 俊 (とし) 典 (のり) ",
+  "occupation": "Pro Hero, Teacher",
+  "quirk": "Quirkless, One For All",
+  "romaji": "Yagi Toshinori",
+  "status": "Alive",
+  "teams": "Hideout Raid Team",
+  "images": [
+    "https://storage.googleapis.com/my-hero-academia-api/Toshinori_Yagi-1.jpg",
+    "https://storage.googleapis.com/my-hero-academia-api/Toshinori_Yagi-2.jpg",
+    "https://storage.googleapis.com/my-hero-academia-api/Toshinori_Yagi.jpg"
+  ],
+  "epithet": "Symbol of Peace",
+  "ages": null,
+  "family": null
+}
