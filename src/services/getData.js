@@ -9,14 +9,14 @@ export default async function getData(){
   const result = {
       alias: data.alias,
       name: data.name,
-      ocupation: data.ocupation,
+      occupation: data.occupation,
       quirk: data.quirk,
-      afiliation: data.afiliation,    
+      affiliation: data.affiliation,    
       birthday: data.birthday,    
       gender: data.gender,    
       height: data.height,    
       status: data.status,
-      description: data.description,      
+      description: data.description.replace(/\([^()]*\)/g, '').replace(/\([^()]*\)/g, '').replace(/ {2,}/g,' ')    
     }
   return result; 
 }
