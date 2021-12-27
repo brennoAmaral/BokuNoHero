@@ -2,7 +2,7 @@ import * as React from "react"
 import theme from "../../theme"
 import styled from "styled-components"
 import BokuNoHeroLogo from "../../images/boku-no-hero-logo.png"
-import BrennoDevLogo from "../../images/brenno-dev-logo"
+import BrennoDevButton from "../../utils/brennoDevButton"
 
 const HeaderStyle = styled.div`
   width: 100%;
@@ -18,19 +18,12 @@ const HeaderStyle = styled.div`
     width: 160px;
   }
 
-  svg {
-    position: absolute;
-    right: 20px;
-  }
-
 `
-
-
 export default function Header() {
   return (
     <HeaderStyle>
       <img src={BokuNoHeroLogo} />
-      <BrennoDevLogo />
+      <BrennoDevButton />
     </HeaderStyle>
 
   );

@@ -3,6 +3,6 @@ const theme = {
   secondary:`#FFDE59`,
   tertiary:`#D40102`,
   white:`#fff`,
-  black:`#373737`,
+  black:`#1c1c1c`,
 }
 export default theme;

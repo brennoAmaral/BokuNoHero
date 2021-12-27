@@ -16,7 +16,7 @@ export default async function getData(){
       gender: data.gender,    
       height: data.height,    
       status: data.status,
-      description: data.description,    
+      description: data.description.replace(/\([^()]*\)/g, '').replace(/\([^()]*\)/g, '').replace(/ {2,}/g,' ')    
     }
   return result; 
 }
