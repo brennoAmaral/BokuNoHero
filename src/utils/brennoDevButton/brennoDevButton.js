@@ -1,7 +1,7 @@
 import { navigate } from 'gatsby'
 import React from 'react'
 import styled from 'styled-components'
-import BrennoDevLogo from "../../images/brenno-dev-logo"
+import BrennoDevLogo from "../../images/svg/brenno-dev-logo"
 
 const BtnIcon = styled.button`
 width: 60px;
@@ -25,7 +25,6 @@ padding: 0;
 position: absolute;
 top: 20px;
 right: 10px;
-  
 `
 
 
