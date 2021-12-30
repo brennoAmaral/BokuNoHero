@@ -7,7 +7,7 @@ import BlueParagraph from "../components/blueParagraph"
 import BlackSpan from "../components/blackSpan"
 import Title from "../components/title"
 import Menu from "../components/menu"
-import { heightMenu } from "../components/Menu/menu"
+import { heightMenu } from "../components/Menu/style"
 
 const DivStyle = styled.div`
   width: 100vw;
