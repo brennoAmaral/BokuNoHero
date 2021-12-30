@@ -1,17 +1,10 @@
 import React from 'react'
-import styledComponents from 'styled-components'
-import theme from '../../theme'
-
-
-const SpanStyle = styledComponents.span`
-font-size: 20px;
-color: ${theme.black};
-`
+import * as style from './style'
 
 export default function blackSpan({children}) {
   return (
-    <SpanStyle>
+    <style.Span>
       {children}
-    </SpanStyle>
+    </style.Span>
   )
 }

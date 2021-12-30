@@ -1,17 +1,10 @@
 import React from 'react'
-import styledComponents from 'styled-components'
-import theme from '../../theme'
-
-
-const PStyle = styledComponents.p`
-font-size: 20px;
-color: ${theme.primary};
-`
+import * as style from './style'
 
 export default function blueParagraph({children}) {
   return (
-    <PStyle>
+    <style.P>
       {children}
-    </PStyle>
+    </style.P>
   )
 }
